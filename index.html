@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weathery</title>
+  <link rel="stylesheet" href="1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="weather-app">
+    <div class="container">
+      <h2 class="brand">Weathery</h2>
+      <div>
+        <h1 class="temp">16&#176;</h1>
+        <div class="city-time">
+          <h1 class="name"></h1>
+          <small>
+            <span class="time"></span>
+            -
+            <span class="date"></span>
+          </small>
+        </div>
+        <div class="weather">
+          <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50" />
+          <span class="condition ">Cloudy</span>
+        </div>
+      </div>
+      <div class="weather-forecast">
+        <!-- <div class="container"> -->
+        <div class="carousel">
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+          <div class="weather-box">
+            <div class="day">Monday</div>
+            <div class="weather-icon">Icon</div>
+            <div class="temperature">Temp</div>
+            <div class="humidity">Humidity</div>
+          </div>
+
+          <!-- </div> -->
+        </div>
+
+      </div>
+    </div>
+    <div class="panel">
+      <form id="localInput">
+        <input type="text" class="Search" placeholder="Search Location..." />
+        <button type="submit" class="submit">
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+
+      <ul class="cities">
+        <li class="city">Mumbai</li>
+        <li class="city">New York</li>
+        <li class="city">London</li>
+        <li class="city">Paris</li>
+        <li class="city">Tokyo</li>
+      </ul>
+
+      <ul class="deatils">
+        <h4>Weather Details</h4>
+        <li>
+          <span>Cloudy</span>
+          <span class="cloud">89%</span>
+        </li>
+        <li>
+          <span>Humidity</span>
+          <span class="humidity">64%</span>
+        </li>
+        <li>
+          <span>Wind</span>
+          <span class="wind">8km/h</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="1.js"></script>
+</body>
+
+</html>
